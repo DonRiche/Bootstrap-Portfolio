@@ -1,33 +1,44 @@
 body{
     background: url(../Images/email-pattern.png);
     width: auto;
+    height: auto;
+    padding-bottom: 0;
 }
 
 .navbar {
-    background-color: aqua;
-    border: 2px solid red;
     padding: 0;
 }
+
 .navbarh1{
     background-color: teal;
     color: white;
     margin-bottom: 0;
     margin-left: 4em;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+ul{
+    margin-left: 380px;
 }
 
 li{
     border-left: 2px solid grey;
-    background-color:pink;
+    padding-left: 10px;
 }
 
 .jumbotron {
     width: 960px;
+    height: 500px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
+    padding: 30px;
 }
 
 .display-10 {
     color: teal;
+    margin-bottom: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 .wordGuess {
@@ -35,7 +46,15 @@ li{
 }
 
 .bioPic {
-    height: 450px;
+    height: 300px;
+    margin: 0;
+    float: left;
+}
+
+p{
+    color:gray;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 footer {
@@ -43,6 +62,7 @@ footer {
     color: white;
     text-align: center;
     border-top: 15px solid teal;
-    position: fixed butt;   
+    clear: both;
+    height: 50px;
+    margin-top: 60px;
 }
-
