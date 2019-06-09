@@ -1,9 +1,29 @@
-.header-nav {
+
+.navbarh1{
     background-color: teal;
-    border: 1px solid black;
+    color: white;
+}
+.jumbotron {
+    width: 960px;
+    background: url(../Images/email-pattern.png)
+}
+.display-10 {
+    color: teal;
+}
+
+
+
+
+
+.bioPic {
+    height: 450px;
+}
+
+.lead {
 
 }
 
-.navBarMenu {
-    float: right;
+.footer {
+background-color: grey;
+color: white;
 }
