@@ -1,29 +1,48 @@
+body{
+    background: url(../Images/email-pattern.png);
+    width: auto;
+}
 
+.navbar {
+    background-color: aqua;
+    border: 2px solid red;
+    padding: 0;
+}
 .navbarh1{
     background-color: teal;
     color: white;
+    margin-bottom: 0;
+    margin-left: 4em;
 }
+
+li{
+    border-left: 2px solid grey;
+    background-color:pink;
+}
+
 .jumbotron {
     width: 960px;
-    background: url(../Images/email-pattern.png)
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .display-10 {
     color: teal;
 }
 
-
-
-
+.wordGuess {
+    height: 150px;
+}
 
 .bioPic {
     height: 450px;
 }
 
-.lead {
-
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    border-top: 15px solid teal;
+    position: fixed butt;   
 }
 
-.footer {
-background-color: grey;
-color: white;
-}
