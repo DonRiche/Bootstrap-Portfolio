@@ -28,7 +28,7 @@ li{
 
 .jumbotron {
     width: 960px;
-    height: 500px;
+    height: 720px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
@@ -39,10 +39,6 @@ li{
     color: teal;
     margin-bottom: 0;
     font-family: Georgia, 'Times New Roman', Times, serif
-}
-
-.wordGuess {
-    height: 150px;
 }
 
 .bioPic {
@@ -57,6 +53,24 @@ p{
     font-family: Arial, Helvetica, sans-serif
 }
 
+.headerRow1 {
+    background-color: teal;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center; 
+    
+}
+
+.row{
+    margin: 5px;
+}
+
+.row-last{
+    margin: 5px;
+    margin-left: 50px;
+}
+
+
 footer {
     background-color: gray;
     color: white;
@@ -65,4 +79,5 @@ footer {
     clear: both;
     height: 50px;
     margin-top: 60px;
+    width:100%;
 }
